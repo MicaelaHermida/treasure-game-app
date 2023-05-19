@@ -31,7 +31,7 @@ map.addEventListener('click', function (e){
 })
 function changeImage(){
     let imgElement = document.createElement('img');
-    imgElement.src = images[generateRandom(images.length-1)];
+    imgElement.src = images[generateRandom(images.length)];
     imgElement.width = 600; 
     imgElement.height = 401;
     imgElement.id = "map";

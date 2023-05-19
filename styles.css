@@ -34,3 +34,8 @@ body{
     background-image: radial-gradient(closest-corner, rgba(255, 242, 100, 0.567), rgb(255, 156, 156), rgba(0, 23, 85, 0.749));
     background-size: cover;
 }
+.subtitle{
+    color: rgba(0, 0, 0, 0.727);
+    font-size: 20pt;
+    opacity: 80%;
+}
