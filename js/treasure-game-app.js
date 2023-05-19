@@ -25,7 +25,7 @@ map.addEventListener('click', function (e){
     docDistance.innerHTML = `<h1>${distanceHint}<\h1>`;
     
     if(distance < 40){
-        alert(`YOU HAVE FOUNT THE TREASURE IN ${clicks} CLICKS!`);
+        alert(`Congrats! You've found the treasure in ${clicks} clicks!`);
         location.reload();
     }
 })
