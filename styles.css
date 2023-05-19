@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Decol&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.margin{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.title{
+    font-family: 'Kaisei Decol', serif;
+    font-size: 40pt;
+    color: rgb(239, 237, 255);
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.589);
+    /*background-color: rgba(0, 0, 0, 0.148);*/
+}
+.text{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 10pt;
+    color: rgba(0, 0, 0, 0.559);
+}
+.gradient-bg{
+    background-image: radial-gradient(closest-corner, rgba(255, 242, 100, 0.567), rgb(255, 156, 156), rgba(0, 23, 85, 0.749));
+    background-size: cover;
+}
