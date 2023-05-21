@@ -4,3 +4,5 @@
 - HTML
 - CSS
 - JavaScript
+
+See it live: https://micaelahermida.github.io/treasure-game-app/
