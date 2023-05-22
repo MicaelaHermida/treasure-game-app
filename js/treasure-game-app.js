@@ -24,7 +24,7 @@ map.addEventListener('click', function (e){
     let distanceHint = getDistanceHint(distance);
     docDistance.innerHTML = `<h1>${distanceHint}<\h1>`;
     
-    if(distance < 40){
+    if(distance < 30){
         alert(`Congrats! You've found the treasure in ${clicks} clicks!`);
         location.reload();
     }
@@ -56,10 +56,10 @@ let getDistance = (e, target) => {
 }
 
 let getDistanceHint = distance => {
-    if(distance < 50){
+    if(distance < 60){
         return "Boiling Hot!";
     }
-    else if(distance < 80){
+    else if(distance < 90){
         return "Really Hot!";
     }
     else if(distance < 120){
