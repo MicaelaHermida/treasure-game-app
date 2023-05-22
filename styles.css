@@ -39,3 +39,9 @@ body{
     font-size: 20pt;
     opacity: 80%;
 }
+
+@media only screen and (max-width: 767px){
+    .gradient-bg{
+        background-image: linear-gradient(to bottom, rgb(255, 156, 156),  rgba(255, 242, 100, 0.567), rgb(255, 156, 156));
+    }
+}
